@@ -32,14 +32,14 @@ book_review_api/
 1. Open terminal and activate virtual environment
 2. Install dependencies:
 
-```bash
+.\venv\Scripts\activate
+
 pip install fastapi uvicorn
 
 Start the server:   uvicorn main:app --reload
+
 Open the browser:
-
 Home: http://127.0.0.1:8000
-
 API Docs: http://127.0.0.1:8000/docs
 
 | Method | Endpoint   | Description      |
